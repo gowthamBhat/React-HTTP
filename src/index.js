@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { init } from './components/services/LoggingService'
+
+init(); //Senentry logging service is moved to separate module
 
 ReactDOM.render(
   <React.StrictMode>
